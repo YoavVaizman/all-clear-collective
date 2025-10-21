@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="who-we-are">
+  <div class="about-intro">
+    <h1>Who We Are</h1>
+    <p>
+      All Clear Collective (ACC) is a group of dancers, teachers, and makers based in the Netherlands.
+      We create performances, workshops, and artistic encounters that explore movement as connection —
+      between people, between ideas, between worlds.
+    </p>
+  </div>
+
+  <div class="about-side-layout">
+    <div class="about-left">
+      <div class="about-block">
+        <h2>Our Work</h2>
+        <p>
+          We move between teaching and performing, from intimate studio practice to large-scale productions.
+          Each project begins with curiosity — what happens when we meet, move, and create together?
+          Through dance, we build spaces of honesty, rhythm, and imagination.
+        </p>
+      </div>
+
+      <div class="about-block">
+        <h2>Our Approach</h2>
+        <p>
+          Collaboration is at the heart of everything we do.
+          We share authorship, support each other’s voices, and believe in creative responsibility.
+          Every dancer brings a different story — together, we form a collective body that keeps moving.
+        </p>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <img src="{{ url_for('static', filename='images/collective1.png') }}" alt="All Clear Collective">
+    </div>
+  </div>
+
+  <div class="about-quote">
+    <p>“We dance to stay awake — together.”</p>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+  header {
+    display: none;
+  }
+</style>
+
+<section class="hero-full">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="All Clear Collective Logo" class="hero-logo">
+
+    <h1>We move to connect.</h1>
+    <p>Dance, collaboration, and creation from Groningen and beyond.</p>
+
+    <div class="hero-buttons">
+      <a href="{{ url_for('about') }}" class="hero-button">Who We Are</a>
+      <a href="{{ url_for('team') }}" class="hero-button">The People</a>
+      <a href="{{ url_for('projects') }}" class="hero-button">Projects</a>
+      <a href="{{ url_for('contact') }}" class="hero-button">Contact</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
