@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<section class="projects-grid">
+
+  <div class="project-item">
+    <img src="{{ url_for('static', filename='images/project4.png') }}" alt="All Clear Sessions">
+    <div class="project-info">
+      <h2>All Clear Sessions</h2>
+      <p>
+        A recurring platform where artists and audiences meet through movement.
+        Each session is improvised, spontaneous, and rooted in presence — a space for discovery,
+        not performance. <em>All Clear Sessions</em> embodies the collective’s ongoing practice
+        of transparency, listening, and shared authorship.
+      </p>
+      <a href="https://www.instagram.com/allclearcollective/" target="_blank" class="project-link">Follow on Instagram →</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <img src="{{ url_for('static', filename='images/project1.png') }}" alt="Soft Armor">
+    <div class="project-info">
+      <h2>Soft Armor</h2>
+      <p>
+        A physical study on strength and vulnerability. <em>Soft Armor</em> unfolds as a series of
+        movements that question what protection means — when the body becomes both shield and language.
+        The work explores resilience through sensitivity, inviting the audience to witness honesty in motion.
+      </p>
+      <a href="https://www.instagram.com/allclearcollective/" target="_blank" class="project-link">Follow on Instagram →</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <img src="{{ url_for('static', filename='images/project2.png') }}" alt="Hope Frequency">
+    <div class="project-info">
+      <h2>Hope Frequency</h2>
+      <p>
+        A live performance that listens to the body as an instrument of persistence. Dancers pulse, breathe,
+        and repeat — finding rhythm in exhaustion. <em>Hope Frequency</em> is a meditation on the practice of
+        staying in motion when everything wants to stop.
+      </p>
+      <a href="https://www.instagram.com/allclearcollective/" target="_blank" class="project-link">Follow on Instagram →</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <img src="{{ url_for('static', filename='images/project3.png') }}" alt="Grounded Light">
+    <div class="project-info">
+      <h2>Grounded Light</h2>
+      <p>
+        A site-specific performance that transforms urban and natural spaces into temporary stages.
+        <em>Grounded Light</em> explores how we move through our surroundings — and how our surroundings move us.
+        The piece merges choreography, sound, and architecture into one breathing organism.
+      </p>
+      <a href="https://www.instagram.com/allclearcollective/" target="_blank" class="project-link">Follow on Instagram →</a>
+    </div>
+  </div>
+
+</section>
+
+<section class="projects-quote">
+  <p>“Every gesture begins with trust — every performance begins with a breath.”</p>
+</section>
+
+{% endblock %}

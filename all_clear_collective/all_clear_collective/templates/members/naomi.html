@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="member-hero">
+  <div class="portrait">
+    <img src="{{ url_for('static', filename='images/naomi.png') }}" alt="Raquel Miojo portrait">
+  </div>
+  <div class="intro">
+    <h1>Raquel Miojo</h1>
+    <h3>Dancer · Creator · Teacher</h3>
+    <p>
+      Raquel explores dynamic movement and flow, blending street-style technique with expressive performance.
+      As part of All Clear Collective, she leads classes and works across collaborative projects that emphasise connection, rhythm, and personal voice.
+    </p>
+  </div>
+</section>
+
+<section class="member-section">
+  <h2>Selected Works</h2>
+  <div class="works-grid">
+
+    <div class="work-card">
+      <h4>“Gigi Art of Dance” Special Class</h4>
+      <p>
+        Raquel led a specialist session at The Underground Dance Center (Groningen) on Friday 24 October 2025 — a high-energy workshop combining jazzfunk foundations with urban styling.
+      </p>
+      <a href="https://www.instagram.com/raquel.miojo" target="_blank">View</a>
+    </div>
+
+    <div class="work-card">
+      <h4>Silvester Workshops 23/24 Recap</h4>
+      <p>
+        Recap video of Raquel’s intensive workshop series at Collab Industry Amsterdam — emphasising flow, groove, and performance presence.
+      </p>
+      <a href="https://www.youtube.com/watch?v=hkHZcb6_lHk" target="_blank">Watch</a>
+    </div>
+
+    <div class="work-card">
+      <h4>Urban Dance Center – Class Video</h4>
+      <p>
+        A class video recorded at The Urban Dance Center showing Raquel teaching and performing — highlights her creative teaching style and strong movement vocabulary.
+      </p>
+      <a href="https://www.youtube.com/@naomimiojo" target="_blank">Watch</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="member-section">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="{{ url_for('static', filename='images/naomi1.png') }}" alt="Raquel photo 1">
+    <img src="{{ url_for('static', filename='images/naomi2.png') }}" alt="Raquel photo 2">
+    <img src="{{ url_for('static', filename='images/naomi3.png') }}" alt="Raquel photo 3">
+  </div>
+</section>
+
+<section class="member-section">
+  <h2>Video</h2>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/lPX1bqhgnOY"
+      title="Raquel Miojo Class Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+{% endblock %}
