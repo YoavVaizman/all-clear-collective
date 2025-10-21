@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: all-clear-collective
-    env: python
-    buildCommand: "pip install -r all_clear_collective/requirements.txt"
-    startCommand: "cd all_clear_collective && gunicorn app:app"
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9
