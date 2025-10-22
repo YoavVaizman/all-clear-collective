@@ -1085,7 +1085,7 @@ body {
 header {
   border-bottom: 20px solid rgba(0, 0, 0, 0.15); /* increased from 1px to 2px */
   padding-bottom: 10px;
-  background-color: var(--background, #fffaf5);
+  background-color: var(--background, #fffaf5); /* here */
 }
 
 /* Optional: soften it a bit to match your palette */
